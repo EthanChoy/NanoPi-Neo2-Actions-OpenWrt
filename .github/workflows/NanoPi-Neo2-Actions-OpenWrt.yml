@@ -44,7 +44,7 @@ jobs:
 
     - name: Clone source code
       env: 
-        REPO_URL: https://github.com/EthanChoy/openwrt
+        REPO_URL: https://github.com/Lienol/openwrt
         REPO_BRANCH: dev-19.07
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
